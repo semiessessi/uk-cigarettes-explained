@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UK Cigarette Brands — Quick Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>UK Cigarette Brands<br>Quick Reference</h1>
+  <p>Variants, strengths &amp; what to suggest when out of stock</p>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:var(--full)"></div> Full Strength</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--mid)"></div> Mid / Original</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--light)"></div> Light (Gold/Blue)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--ultra)"></div> Ultra Light</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--premium)"></div> Premium</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--value)"></div> Mid-Price</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--budget)"></div> Value/Budget</div>
+</div>
+
+<!-- ============ PIE CHART ============ -->
+<div class="section-title">UK Market Share — Top Brands</div>
+<div class="chart-container">
+  <div class="pie-wrap"><svg viewBox="0 0 400 400" class="pie-svg"></svg></div>
+  <div class="chart-legend" id="chartLegend"></div>
+</div>
+
+<!-- ============ PREMIUM ============ -->
+<div class="section-title">Premium Brands</div>
+<div class="brand-grid">
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Marlboro</div><div class="brand-owner">Philip Morris International</div></div>
+      <div class="brand-tier tier-premium">Premium</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Red</div><div class="variant-size">KS</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Gold</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Silver Blue</div><div class="variant-size">KS</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Touch</div><div class="variant-size">KS</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">B&H Blue (for Gold)</span>
+        <span class="alt-tag">JPS Real Red (for Red)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Benson & Hedges</div><div class="brand-owner">Japan Tobacco International</div></div>
+      <div class="brand-tier tier-premium">Premium</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Gold</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Sky Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-ultra"></div></div><div class="variant-name">Silver</div><div class="variant-size">KS / SK</div><div class="variant-strength">Ultra</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Marlboro Gold (for Gold)</span>
+        <span class="alt-tag">L&B Blue (for Blue)</span>
+        <span class="alt-tag">Silk Cut (for Silver)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Dunhill</div><div class="brand-owner">British American Tobacco</div></div>
+      <div class="brand-tier tier-premium">Premium</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Red</div><div class="variant-size">KS</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Blue</div><div class="variant-size">KS</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Marlboro Red / Gold</span>
+        <span class="alt-tag">B&H Blue</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Silk Cut</div><div class="brand-owner">Japan Tobacco International</div></div>
+      <div class="brand-tier tier-premium">Premium</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Purple</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-ultra"></div></div><div class="variant-name">Silver</div><div class="variant-size">KS</div><div class="variant-strength">Ultra</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-ultra"></div></div><div class="variant-name">White</div><div class="variant-size">KS</div><div class="variant-strength">Ultra</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">B&H Silver</span>
+        <span class="alt-tag">Marlboro Silver Blue</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MID-PRICE ============ -->
+<div class="section-title">Mid-Price Brands</div>
+<div class="brand-grid">
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Lambert & Butler</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-mid">Mid-Price</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Original Silver</div><div class="variant-size">KS / SK</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Bright</div><div class="variant-size">KS</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Gold</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Players (for Silver)</span>
+        <span class="alt-tag">B&H Blue (for Blue)</span>
+        <span class="alt-tag">Mayfair Gold (for Gold)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Players / JPS</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-mid">Mid-Price</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Real Red</div><div class="variant-size">KS / SK</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Real Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Green Filter</div><div class="variant-size">SK</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Players Max</div><div class="variant-size">SK (12% longer)</div><div class="variant-strength">Full</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">L&B Silver (for Red)</span>
+        <span class="alt-tag">Richmond Blue (for Blue)</span>
+        <span class="alt-tag">Sterling (for value)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Embassy</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-mid">Mid-Price</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Signature Red</div><div class="variant-size">KS</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Signature Gold</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">L&B Silver (for Red)</span>
+        <span class="alt-tag">Mayfair Gold (for Gold)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Regal</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-mid">Mid-Price</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Signature Blue</div><div class="variant-size">KS</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Signature</div><div class="variant-size">SK</div><div class="variant-strength">Full</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">L&B Silver</span>
+        <span class="alt-tag">Players Real Red</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ VALUE / BUDGET ============ -->
+<div class="section-title">Value & Budget Brands</div>
+<div class="brand-grid">
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Sterling</div><div class="brand-owner">Japan Tobacco International</div></div>
+      <div class="brand-tier tier-value">Value</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Original (Red)</div><div class="variant-size">KS / SK</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Dual</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Green</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Mayfair (same tier)</span>
+        <span class="alt-tag">Richmond (cheaper)</span>
+        <span class="alt-tag">Sovereign</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Mayfair</div><div class="brand-owner">Japan Tobacco International</div></div>
+      <div class="brand-tier tier-value">Value</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Original Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Gold</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Sky Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-ultra"></div></div><div class="variant-name">Silver</div><div class="variant-size">KS / SK</div><div class="variant-strength">Ultra</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Green</div><div class="variant-size">KS</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Sterling (same tier)</span>
+        <span class="alt-tag">Richmond</span>
+        <span class="alt-tag">L&B Gold (for Gold)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Richmond</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-value">Budget</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Original (Red)</div><div class="variant-size">KS / SK</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Green</div><div class="variant-size">SK</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Sovereign</span>
+        <span class="alt-tag">Paramount</span>
+        <span class="alt-tag">Sterling</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Sovereign</div><div class="brand-owner">Japan Tobacco International</div></div>
+      <div class="brand-tier tier-value">Budget</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Sky Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Richmond</span>
+        <span class="alt-tag">Paramount</span>
+        <span class="alt-tag">Mayfair</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Paramount</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-value">Budget</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Original</div><div class="variant-size">KS / SK</div><div class="variant-strength">Full</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Richmond</span>
+        <span class="alt-tag">Sovereign</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Pall Mall</div><div class="brand-owner">British American Tobacco</div></div>
+      <div class="brand-tier tier-value">Value</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Flow Red</div><div class="variant-size">KS / SK</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Flow Blue</div><div class="variant-size">KS / SK</div><div class="variant-strength">Mid</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Sterling</span>
+        <span class="alt-tag">Carlton</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Carlton</div><div class="brand-owner">Imperial Brands</div></div>
+      <div class="brand-tier tier-value">Value</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-full"></div></div><div class="variant-name">Original Red</div><div class="variant-size">SK</div><div class="variant-strength">Full</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">SK</div><div class="variant-strength">Mid</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Richmond</span>
+        <span class="alt-tag">Pall Mall</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card">
+    <div class="brand-header">
+      <div><div class="brand-name">Windsor Blue / Berkeley</div><div class="brand-owner">Imperial / JTI</div></div>
+      <div class="brand-tier tier-value">Budget</div>
+    </div>
+    <div class="variants">
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-mid"></div></div><div class="variant-name">Blue</div><div class="variant-size">SK</div><div class="variant-strength">Mid</div></div>
+      <div class="variant"><div class="strength-bar"><div class="strength-fill str-light"></div></div><div class="variant-name">Sky Blue</div><div class="variant-size">SK</div><div class="variant-strength">Light</div></div>
+    </div>
+    <div class="alt-section">
+      <div class="alt-label">If out of stock, suggest →</div>
+      <div class="alt-tags">
+        <span class="alt-tag">Sovereign</span>
+        <span class="alt-tag">Richmond</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ COLOUR KEY ============ -->
+<div class="colour-key">
+  <h3>Colour = Strength — What the pack colours mean</h3>
+  <div class="ck-grid">
+    <div class="ck-item"><div class="ck-swatch" style="background:#cc3333"></div> Red / Original — Full strength</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#c0c0c0"></div> Silver — Full strength (some brands)</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#4478b8"></div> Blue — Mid strength (most popular)</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#d4a840"></div> Gold — Lighter / smooth</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#5bae8a"></div> Green — Light or menthol-style</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#7bb8d8"></div> Sky Blue — Light</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#e8e8e8"></div> White / Silver — Ultra light</div>
+    <div class="ck-item"><div class="ck-swatch" style="background:#8855aa"></div> Purple — Light (Silk Cut)</div>
+  </div>
+</div>
+
+<!-- ============ GUIDE ============ -->
+<div class="guide-box">
+  <h3>How to Suggest an Alternative — Quick Rules</h3>
+  <div class="guide-grid">
+    <div class="guide-item">
+      <strong>1. Match the strength first</strong>
+      <p>A Red/Silver smoker won't want a Gold. Always match the colour/strength before the brand.</p>
+    </div>
+    <div class="guide-item">
+      <strong>2. Match the price tier</strong>
+      <p>Don't suggest Marlboro to a Richmond customer — offer Sovereign or Paramount instead.</p>
+    </div>
+    <div class="guide-item">
+      <strong>3. Match the size</strong>
+      <p>KS (King Size) and SK (Superkings) are not interchangeable for most smokers. Ask which they prefer.</p>
+    </div>
+    <div class="guide-item">
+      <strong>4. Same manufacturer helps</strong>
+      <p>Brands from the same company (e.g. L&B → Players, both Imperial) often share similar tobacco blends.</p>
+    </div>
+    <div class="guide-item">
+      <strong>5. Always ask, don't assume</strong>
+      <p>"We're out of that — would you like to try [X]? It's a similar strength and price." Customers appreciate the help.</p>
+    </div>
+    <div class="guide-item">
+      <strong>6. KS vs SK reminder</strong>
+      <p>KS = King Size (standard ~84mm). SK = Superkings (longer ~100mm). Some brands sell both.</p>
+    </div>
+  </div>
+</div>
+
+<footer>Quick reference guide · Prices and availability vary · Check with your manager for current stock and pricing</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
