@@ -25,14 +25,13 @@
   <div class="legend-item"><div class="legend-dot" style="background:var(--budget)"></div> Value/Budget</div>
 </div>
 
-<!-- ============ PIE CHART ============ -->
-<div class="section-title">UK Market Share — Top Brands</div>
-<div class="chart-container">
-  <div class="pie-wrap"><svg viewBox="0 0 400 400" class="pie-svg"></svg></div>
-  <div class="chart-legend" id="chartLegend"></div>
-</div>
+<!-- ============ TIERS ============ -->
+<div class="tiers-row">
+<div class="tiers-left">
+<div class="tiers-left-top">
 
 <!-- ============ PREMIUM ============ -->
+<section class="tier-col">
 <div class="section-title">Premium Brands</div>
 <div class="brand-grid">
 
@@ -116,6 +115,8 @@
 </div>
 
 <!-- ============ MID-PRICE ============ -->
+</section>
+<section class="tier-col">
 <div class="section-title">Mid-Price Brands</div>
 <div class="brand-grid">
 
@@ -199,7 +200,21 @@
 </div>
 
 <!-- ============ VALUE / BUDGET ============ -->
-<div class="section-title">Value & Budget Brands</div>
+</section>
+</div><!-- /tiers-left-top -->
+
+<!-- ============ PIE CHART (full width of left 2/3) ============ -->
+<div class="chart-box">
+  <div class="section-title">UK Market Share</div>
+  <div class="chart-container">
+    <div class="pie-wrap"><svg viewBox="0 0 400 400" class="pie-svg"></svg></div>
+    <div class="chart-legend" id="chartLegend"></div>
+  </div>
+</div>
+
+</div><!-- /tiers-left -->
+<section class="tier-col tier-right">
+<div class="section-title">Value &amp; Budget Brands</div>
 <div class="brand-grid">
 
   <div class="brand-card">
@@ -355,6 +370,9 @@
     </div>
   </div>
 </div>
+
+</section>
+</div><!-- /tiers-row -->
 
 <!-- ============ COLOUR KEY ============ -->
 <div class="colour-key">
