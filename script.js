@@ -1,16 +1,16 @@
 (function(){
   const data=[
-    {label:'Benson & Hedges',value:19.4,color:'#d4943a'},
-    {label:'Lambert & Butler',value:11.0,color:'#7a8b6e'},
-    {label:'Players / JPS',value:9.9,color:'#5a7a9b'},
-    {label:'Sterling',value:8.4,color:'#c44b2b'},
-    {label:'Marlboro',value:6.0,color:'#b8374a'},
-    {label:'Sovereign',value:6.0,color:'#8b6914'},
-    {label:'Richmond',value:5.5,color:'#3a5ba0'},
-    {label:'Mayfair',value:4.3,color:'#2b6b4f'},
-    {label:'Silk Cut',value:3.5,color:'#8855aa'},
-    {label:'Pall Mall',value:3.0,color:'#d48a3a'},
-    {label:'Others',value:23.0,color:'#c0b8ad'}
+    {label:'Benson & Hedges',value:19.4,color:'#c49330'},
+    {label:'Lambert & Butler',value:11.0,color:'#6e7a38'},
+    {label:'Players / JPS',value:9.9,color:'#3a6e92'},
+    {label:'Sterling',value:8.4,color:'#8e4a20'},
+    {label:'Marlboro',value:6.0,color:'#5a2a18'},
+    {label:'Sovereign',value:6.0,color:'#9e8248'},
+    {label:'Richmond',value:5.5,color:'#254a82'},
+    {label:'Mayfair',value:4.3,color:'#1a5038'},
+    {label:'Silk Cut',value:3.5,color:'#2a1f3a'},
+    {label:'Pall Mall',value:3.0,color:'#ae7632'},
+    {label:'Others',value:23.0,color:'#bcb096'}
   ];
   const svg=document.querySelector('.pie-svg');
   const legend=document.getElementById('chartLegend');

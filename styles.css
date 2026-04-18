@@ -1,10 +1,10 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
   --bg:#f5f0eb;--card:#fff;--ink:#1a1714;--muted:#7a7168;
-  --accent:#c44b2b;--accent2:#2b6b4f;--accent3:#3a5ba0;
-  --full:#c44b2b;--mid:#d4943a;--light:#3a5ba0;--ultra:#7a7168;
+  --accent:#8e4a20;--accent2:#1a5038;--accent3:#254a82;
+  --full:#8e4a20;--mid:#ae7632;--light:#254a82;--ultra:#6a615a;
   --tag-bg:#f0ebe5;--border:#e0d9d0;
-  --premium:#8b6914;--value:#2b6b4f;--budget:#3a5ba0;
+  --premium:#6e5814;--value:#1a5038;--budget:#254a82;
 }
 body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
 
@@ -72,7 +72,16 @@ footer{text-align:center;margin-top:40px;font-size:.75rem;color:var(--muted)}
 @page{size:A4 landscape;margin:5mm 7mm}
 
 @media print{
-  html,body{background:#fff;color:#000;font-size:6pt;line-height:1.2;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html,body{background:#fff;color:#000;font-size:6pt;line-height:1.25;font-weight:500;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+
+  /* darker borders so layout still reads on greyscale printers */
+  :root{--border:#a69f94}
+
+  /* stronger font weights across the board for print legibility */
+  .brand-name{font-weight:700}
+  .brand-owner,.variant-strength,.variant-size,.alt-tag,.cl-label,.ck-item,.guide-item p,footer,.legend-item{font-weight:500}
+  .variant-name{font-weight:600}
+  .alt-label,.brand-tier,.section-title,.colour-key h3,.guide-box h3,.guide-item strong,.cl-val{font-weight:700}
 
   .page{max-width:none;padding:0;margin:0}
 
